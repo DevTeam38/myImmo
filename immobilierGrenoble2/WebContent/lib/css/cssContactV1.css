@@ -1,0 +1,219 @@
+@CHARSET "UTF-8";
+	
+#section{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#formContact{
+	z-index:4;
+	border:1px solid black;
+	margin-top:150px;
+	width:550px;
+	height:385px;
+	background:white;
+	opacity:1;
+}	
+#labelContact{
+	display:block;
+	font-size:2.2em;
+	font-weight:bold;
+	width:100%;
+	margin-top:5px;	
+	text-align:center;
+	color:grey;
+}
+/* ------------------User name------------------ */
+#userName{
+	display:flex;
+	align-items: center;	
+	justify-content: center;
+	height:40px;	
+}
+#userName:hover #corp3{
+ background-color: #f1d275;
+}
+#userName:hover #tete3{
+ background-color: #f1d275;
+}
+#iconeCompteUser3{
+	position: relative;
+	margin-right:29px;
+}
+#corp3{
+   position:absolute;
+   margin-top:0px;
+   margin-left:4px;
+   width: 14px;
+   height: 14px;
+   background-color: #a7945a;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+#tete3{
+	position:absolute;
+	margin-top:-7px;
+	margin-left:7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;	
+	background-color: #a7945a;
+} 
+#nom{
+	margin-right:20px;
+	font-size:1em;
+	margin-left:40px;	
+}
+#prenom{
+	font-size:1em;
+}
+/* ------------------User email------------------ */
+
+#userEmail{
+	display:flex;
+	align-items: center;	
+	justify-content: center;
+	height:40px;
+}	
+#iconeUserEmail{
+	margin-right:30px;
+	font-size:1.7em;
+	color: #a7945a;
+}
+#userEmail:hover #iconeUserEmail{
+	color: #f1d275;
+}
+#email{
+	margin-right:20px;	
+	font-size:1em;	
+}
+#userEmail:hover #rectangle2{
+	background-color: #f1d275;
+}
+#userEmail:hover #demiCercleHaut2{
+	background-color: #f1d275;
+}
+#userEmail:hover #demiCercleBas2{
+	background-color: #f1d275;
+}
+/* ------------------User adress------------------ */
+
+.iconeEnveloppe2{
+	position: relative;
+	margin-right:29px;
+}
+#rectangleEnveloppe2{
+	position:absolute;
+	margin-top:-8px;
+	margin-left:0px;  
+	width:20px;
+	height:15px;
+	border:2px solid #a7945a;
+}
+#traitEnveloppe2{
+	margin-top:-3px;
+	position:absolute;
+	margin-left:0px; 
+    width: 12px;
+    height:0px;
+    border:1px solid #a7945a;
+    transform:rotate(40deg);
+}
+#trait2Enveloppe2{
+	margin-top:-3px;
+	position:absolute;
+	margin-left:10px; 
+    width: 12px;
+    height:0px;
+    border:1px solid #a7945a;
+    transform:rotate(-40deg);
+}
+
+/* ------------------User phone------------------ */
+
+#userPhone{
+	display:flex;
+	align-items: center;	
+	justify-content: center;
+	height:40px;	
+}
+.iconeTelephone2{
+	position: relative;
+	margin-right:29px;
+}
+#rectangle2{
+	position:absolute;
+	margin-top:-26px;
+	margin-left:51px;
+	width: 4px;
+	border-radius: 70%  70%  50%  50%  / 60%   70%   40%  40%;
+	height: 23px;
+	background-color: #a7945a;
+	transform:rotate(-30deg);
+}
+#demiCercleHaut2{
+	position:absolute;
+	margin-top:-28px;
+	margin-left:46px;   
+	height : 9px;
+	width :10px;
+	border-radius: 7px 7px 0 0;
+ 	background-color: #a7945a;
+	transform:rotate(-120deg);
+}
+#demiCercleBas2{
+	position:absolute;
+	margin-top:-14px;
+	margin-left:54px;   
+	height : 9px;
+	width :10px;
+	border-radius: 7px 7px 0 0;
+ 	background-color: #a7945a;
+	transform:rotate(-120deg);
+}
+#telephone1{
+	margin-right:20px;		
+	font-size:1em;	
+}
+#telephone2{
+	font-size:1em;	
+}
+#userSujet{
+	display:flex;
+	align-items: center;	
+	justify-content: center;
+	margin-top:10px;
+}
+#sujet{
+	width:495px;
+}
+#userTextArea{
+    display:flex;
+	align-items: center;	
+	justify-content: center;
+	margin-top:10px;
+}
+#idTextArea{
+    resize: none;
+    width: 90%;
+    height: 140px;
+}
+#buttonEnvoyer{
+	display:flex;
+	align-items: center;	
+	justify-content: center;
+	margin-top:20px;	
+}
+#envoyer{
+	width:100px;
+	height:30px;
+	background:#a7945a;
+    color:#fff;
+	font-size :1.2em;
+    border-radius: 4px;
+    border:none;	
+}
+#envoyer:hover{
+	 font-weight: bold;
+	 background:#f1d275;	
+	 border: 2px solid #94d9fc;
+}

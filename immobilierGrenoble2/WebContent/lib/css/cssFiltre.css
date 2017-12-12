@@ -1,0 +1,254 @@
+@CHARSET "UTF-8";
+
+#filtre{
+	z-index:3;
+	border-bottom:1px solid #a7945a;
+	height:55px;
+	background-color:rgba(255,255,255,0.9);
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	data-constraint:150px;
+	justify-content:center;
+}
+.checkBoxFiltre{
+	display:flex;
+	flex-direction:column;
+	font-size:1em;
+	color:#a7945a;
+	font-variant: small-caps;
+	justify-content:center;
+	align-items:left;
+}
+#checkMaison{
+	height:20px;
+	width:40px;
+}
+#checkAppartement{
+	height:20px;
+	width:40px;
+}
+#labelAppartement{
+	align-items:center;
+	display:flex;
+	flex-direction:row;
+	height:20px;
+}
+#labelMaison{
+	align-items:center;
+	display:flex;
+	flex-direction:row;
+	height:20px;
+}
+#prixMin{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#prixMinIcone{
+  z-index:3;
+  width:110px;  
+  position: relative;
+  margin-left:10px;
+}
+#prixMinIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#prixMax{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#prixMaxIcone{
+  z-index:3;
+  width:110px;
+  position: relative;
+  margin-left:10px;
+}
+#prixMaxIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#pieceMin{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#pieceMinIcone{
+  z-index:3;
+  width:110px;
+  position: relative;
+  margin-left:30px;
+}
+#pieceMinIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#pieceMax{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#pieceMaxIcone{
+  z-index:3;
+  width:110px;
+  position: relative;
+  margin-left:10px;
+}
+#pieceMaxIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#surfaceMin{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#surfaceMinIcone{
+  z-index:3;
+  width:110px;
+  position: relative;
+  margin-left:30px;
+}
+#surfaceMinIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#surfaceMax{
+  font-size:0.8em;
+  color:#a7945a;
+  font-variant: small-caps;
+  padding-left:2px;
+  padding-right:20px;
+  height:25px;
+  width:105px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #cac9cb;
+  background: white;
+  background-image: none;
+  border-radius: 0;	      
+}
+#surfaceMaxIcone{
+  z-index:3;
+  width:110px;
+  position: relative;
+  margin-left:10px;
+}
+#surfaceMaxIcone:after{
+  right:3px;
+  margin-top:3px;
+  margin-right:5px;
+  content: '\25BC';
+  color:#f1d275;
+  position: absolute;
+  pointer-events: none; 
+}
+#codePostal{
+  z-index:3;
+  height:20px;
+  margin-left:30px;
+  width:140px;
+  font-size:1em;
+}
+

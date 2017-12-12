@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+
+#mapContainer{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	border:1px solid black;
+		justify-content:center;
+}
+
+#annonces{
+	height:700px;
+	width: 50%;
+	background-color:red;	
+}
+
+#map_canvas{
+	height:700px;
+	width: 50%;
+}

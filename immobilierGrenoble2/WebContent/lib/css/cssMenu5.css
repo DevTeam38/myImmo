@@ -1,0 +1,504 @@
+@CHARSET "UTF-8";
+
+html, body {
+ margin:0;
+ padding:0;}
+ 
+#img1{
+	background-image:url("lib/images/img3.jpg");
+	background-size: 100%;
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+/*     background-size: cover;	    	 */
+    transition:.5s;
+    }
+/* pour retirer les images */
+#backgroundColorWebSite{ 
+	background-color:#f4fdd5;
+}
+    
+#img1NoVisible{
+/* 	z-index:2; */
+    background-color: rgba(255,255,255,0);
+	background-size: 100%;
+/* 	width:90%; */
+	
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:0.3s;
+}
+
+#waveLimite{
+	position:absolute;
+    background-color: rgba(255,255,255,0);	
+    width:90%;
+    min-height: 900px;
+    background-attachment: fixed;
+}
+   
+#piedDePage{
+	background-image:linear-gradient(60deg, white, #a2f8fe);
+    background-attachment: fixed;
+    top:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+    background-repeat: no-repeat;}
+    
+    
+/* -----------------------Menu ------------------------   */ 
+
+.banderoleBlanc{
+/* 	opacity:0.6; */
+	
+	display:flex;
+    flex-direction: column;
+	height:130px;
+	background-color:rgba(255,255,255,0.6);	
+	border-bottom:1px solid #FFD700;
+	text-align:center;
+	justify-content: center;}
+
+#marque{
+	text-shadow: #bd9a64 2px 2px, #bd9a64 -2px 2px, #bd9a64 -2px -2px, #bd9a64 2px -2px;
+	font-variant: small-caps;
+	color:white;
+	font-size:4.2em;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 74px;
+	height:100px;}
+	
+#grenoble{
+/* 	font-style:italic; */
+/* 	width:100%; */
+/* 	height:40px; */
+/* 	font-size:1.4em; */
+/* 	color:#f2d068; */
+/* 	font-family: "Times New Roman", serif; */
+	} 	
+	
+	
+	
+#listeTest{
+/* 	border :1px solid black; */
+	text-shadow: #bd9a64 1px 1px, #bd9a64 -1px 1px, #bd9a64 -1px -1px, #bd9a64 1px -1px;
+	font-size:1.4em;
+		color:white;
+/* 	color:#f2d068; */
+	font-family: "Times New Roman", serif;
+	display:flex;
+	justify-content: center;	
+	animation: fadeIn 1s ease-in both;
+	height:40px;
+}
+
+#listeTest div{	
+	animation: fadeIn 1s ease-in both;
+}
+
+#listeTest div:nth-child(2) {
+	animation-delay: 0.2s;
+}
+#listeTest div:nth-child(3) {
+	animation-delay: 0.4s;
+}
+#listeTest div:nth-child(4) {
+	animation-delay: 0.6s;
+}
+#listeTest div:nth-child(5) {
+	animation-delay: 0.8s;
+}
+#listeTest div:nth-child(6) {
+	animation-delay: 1s;
+}
+#listeTest div:nth-child(7) {
+	animation-delay: 1.2s;
+}
+#listeTest div:nth-child(8) {
+	animation-delay: 1.4s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
+
+    
+#effet{ 
+	background-color:rgba(255, 255, 255, 0.95);
+	z-index:10;
+	width:100%;
+	height:40px;}   
+ 
+.menuParent {
+/* 	border:1px solid black; */
+	z-index:11;
+	position:abolute;
+	display:flex;
+	justify-content:space-around;
+/* 	align-items:center; */
+	line-height: 34px;
+	border-bottom:3px solid #bd9a64;
+	width:100%;
+	height:40px;
+	font-size:1.2em;
+    opacity:1;}
+
+.bouton{
+	display:block;
+/* 	border:1px solid black; */
+
+	width:90px;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:5px;
+	color:#a7945a;
+	height:35px;	
+	text-decoration: none;}
+#toto{
+/* 	width:250px; */
+/* 	border:1px solid black; */
+}
+
+/* -----------------------Icone logo ------------------------   */
+
+.iconeLogo{
+	margin-top:3px;}
+	
+#triangle{
+    width: 0;
+    height: 0;
+    background:none;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 12px solid #a7945a;}
+    
+#carre{
+	position:absolute;
+	margin-left:16px;
+	width:25px;
+	height:20px;
+	background:none;
+	border:2px solid #a7945a;
+	border-bottom:0px;
+	border-top:1px;	}
+	
+#fenetre1{
+/* 	position:absolute; */
+/* 	margin-top:3px; */
+/* 	margin-left:21px; */
+/* 	width:3px; */
+/* 	height:3px; */
+/* 	background:none; */
+/* 	border:2px solid #a7945a; */
+}
+	
+#fenetre2{
+/* 	position:absolute; */
+/* 	margin-top:3px; */
+/* 	margin-left:34px; */
+/* 	width:3px; */
+/* 	height:3px; */
+/* 	background:none; */
+/* 	border:2px solid #a7945a; */
+}
+	
+#ovale {
+/* 	position:absolute; */
+/* 	margin-top:10px; */
+/* 	margin-left:25px; */
+/*     width: 10px; */
+/* 	height: 10px; */
+/* 	border-radius: 20px 0 20px 0; */
+/*     background: none; */
+/*     border:1px solid #a7945a; */
+/*     transform:rotate(45deg); */
+}
+   
+#marqueLogo{
+	position:absolute;
+	margin-top:-8px;
+	margin-left:65px;
+	color:#a7945a;
+	font-size:1.2em;
+}
+ 
+/* --------Hover--------   */   
+.iconeLogo:hover {
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	} 
+	
+.iconeLogo:hover #triangle {
+	border-bottom: 12px solid #f1d275;}
+	
+.iconeLogo:hover #carre {
+	border:2px solid #f1d275;
+	border-top:1px;}
+	
+.iconeLogo:hover #ovale {
+/* 	position:absolute; */
+/* 	margin-top:10px; */
+/* 	margin-left:26px; */
+/*     width: 7px; */
+/* 	height: 7px; */
+/* 	border-radius: 3px; */
+/*     border:1px solid #bd9a64; */
+/*     opacity:1; */
+    }
+    
+.iconeLogo:hover #fenetre1{
+/*     background: white; */
+/*     border:2px solid #bd9a64; */
+/*     opacity:1; */
+    }
+    
+.iconeLogo:hover #fenetre2{
+/*     background: white; */
+/*     border:2px solid #bd9a64; */
+    }
+
+.iconeLogo:hover #marqueLogo{
+	color:#f1d275}
+/* -----------------------Icone logo ------------------------   */
+
+
+
+/* -----------------------Icone Compte ------------------------   */	
+.iconeCompte{
+/* 			padding-left:10%; */
+/* 		padding-right:10%; */
+/* 	margin-left:10px; */
+/* 	margin-right:100px; */
+/* 	width:30px; */
+	}
+	
+#cercle{
+	position:absolute;
+	margin-top:5px;
+	margin-left:0px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;	
+	border:2px solid #a7945a;}
+
+#corp{
+   position:absolute;
+   margin-top:17px;
+   margin-left:8px;
+   width: 14px;
+   height: 14px;
+   background-color: #a7945a;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;}
+
+#tete{
+	position:absolute;
+	margin-top:10px;
+	margin-left:11px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;	
+	background-color: #a7945a;}
+	
+/* --------Hover--------   */  
+.iconeCompte:hover #cercle{
+	border:2px solid #f1d275;
+/* 	opacity:0.5; */
+/* 	transition:.5s;	 */
+}
+.iconeCompte:hover #tete{
+	background-color: #f1d275;	
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+}
+.iconeCompte:hover #corp{
+	background-color:#f1d275;	
+/* 	opacity:0.; */
+/* 	transition:.5s; */
+}
+
+/* -----------------------Icone Compte ------------------------   */
+
+
+/* -----------------------Icone Telephone ------------------------   */
+.iconeTelephone{
+/* 	border:1px solid black; */
+/* 			padding-left:10%; */
+/* 		padding-right:10%; */
+/* /* 	margin-left:50px; */ */
+/* margin-right:10px; */
+/* 	width:20px; */
+}
+
+#rectangle{
+	position:absolute;
+	margin-top:10px;
+	margin-left:6px;
+	width: 4px;
+	border-radius: 70%  70%  50%  50%  / 60%   70%   40%  40%;
+	height: 23px;
+	background-color: #a7945a;
+	transform:rotate(-30deg);}
+
+#demiCercleHaut{
+	position:absolute;
+	margin-top:8px;
+	margin-left:1px;   
+	height : 9px;
+	width :10px;
+	border-radius: 7px 7px 0 0;
+ 	background-color: #a7945a;
+	transform:rotate(-120deg);}
+
+#demiCercleBas{
+	position:absolute;
+	margin-top:24px;
+	margin-left:10px;   
+	height : 9px;
+	width :10px;
+	border-radius: 7px 7px 0 0;
+ 	background-color: #a7945a;
+	transform:rotate(-120deg);}
+	
+/* --------Hover--------   */  
+
+.iconeTelephone:hover #rectangle{
+		background-color: #f1d275;
+		transition:.1s;}
+		
+.iconeTelephone:hover #demiCercleHaut{
+		background-color: #f1d275;
+		transition:.1s;}
+		
+.iconeTelephone:hover #demiCercleBas{
+		background-color: #f1d275;
+		transition:.1s;}
+		
+.iconeTelephone:hover{		
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	}
+
+/* -----------------------Icone Telephone ------------------------   */
+
+
+/* -----------------------Icone Enveloppe ------------------------   */
+.iconeEnveloppe{
+/* 		border:1px solid black; */
+/* 			padding-left:10%; */
+/* 		padding-right:10%; */
+/* /* 	border:1px solid black; */ */
+/* /* 	position:absolute; */ */
+/* 	margin-left:10px; */
+/* 	margin-right:10px; */
+/* 	width:40px;	 */
+	}
+
+#rectangleEnveloppe1{
+	position:absolute;
+	margin-top:10px;
+	margin-left:0px;  
+	width:20px;
+	height:15px;
+	border:2px solid #a7945a;}
+
+#traitEnveloppe1{
+	margin-top:15px;
+	position:absolute;
+	margin-left:0px; 
+    width: 12px;
+    height:0px;
+    border:1px solid #a7945a;
+    transform:rotate(40deg);}
+
+#trait2Enveloppe1{
+	margin-top:15px;
+	position:absolute;
+	margin-left:10px; 
+    width: 12px;
+    height:0px;
+    border:1px solid #a7945a;
+    transform:rotate(-40deg);}
+    
+ /* --------Hover--------   */  
+.iconeEnveloppe:hover #rectangleEnveloppe1{	
+	border:2px solid #f1d275;}
+		
+.iconeEnveloppe:hover #traitEnveloppe1{
+	border:1px solid #f1d275;}
+
+		
+.iconeEnveloppe:hover #trait2Enveloppe1{
+	border:1px solid #f1d275;}
+
+.iconeEnveloppe:hover{		
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	}
+		
+
+
+/* -----------------------Icone Enveloppe ------------------------   */
+
+/* -----------------------Boutons autres ------------------------   */
+
+#bouton2:hover{
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	color:#f1d275;}
+	
+#bouton3:hover{
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	color:#f1d275}
+
+#bouton3{
+		margin: auto;
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	}	
+
+	
+#bouton4:hover{
+/* 	opacity:0.5; */
+/* 	transition:.5s; */
+	color:#f1d275}
+	
+/* -----------------------Boutons autres ------------------------   */	
+
+.wave-effect {
+  z-index: 1;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;}
+
+.wave {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.5);
+  transition: -webkit-transform 1s cubic-bezier(0.23, 1, 0.32, 1), opacity 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1), opacity 2s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  pointer-events: none;}
+  
+
+
+

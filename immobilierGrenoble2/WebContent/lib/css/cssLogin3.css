@@ -1,0 +1,212 @@
+@CHARSET "UTF-8";
+
+input:not(.checkBox,.checkBoxFiltre,.checkBoxTypeBien){
+	-webkit-appearance:none;
+	height:25px;
+	font-size: 1em;	
+	size:12;
+	width:200px;
+	border:1px solid #a7945a;
+	color:#a7945a;
+	transition: width 0.3s ease;}
+
+[placeholder]{
+	font-family: "Times New Roman", serif;
+	font-size: 1em;
+	font-style: normal;}
+
+#formConnectionFlexRow{
+/* 					margin-right:20px; */
+	z-index:4;
+	opacity:0;
+	transition:.25s;
+	visibility:hidden;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-end;}
+	
+#formConnectionFlexColumn{
+	z-index:4;
+	display:flex;
+    flex-direction:column;}
+    
+#connexionRow{
+	z-index:4;
+	display:flex;
+	flex-direction:row;
+	background-color:rgba(255,255,255,0.9);	
+	width:700px;
+    right:0;
+    height:40px; 
+    border-radius: 3px;  
+    border:1px solid #bd9a64;}
+
+#inscritpionRow{
+  	display:flex;
+	flex-direction:row;
+	background-color:rgba(255,255,255,0.9);	
+	width:700px;
+    right:0;
+    height:40px;
+    border-radius: 3px;
+    border:1px solid #bd9a64;}
+    	
+#section{
+	display:flex;
+	flex-direction:row;}
+
+ /* -----------------------------------------------Ligne Connexion----------------------------------------------------	 */    
+
+.divForm1{
+	width:230px;
+	margin-left:2px;
+	margin-top:3px;}
+
+/* ---------------------------UserName----------------------------	 */
+		
+#user{
+	padding-left:30px;
+	font-size:0.8em;}
+#iconeCompteUser {	
+    position: relative;
+	font-size:1.6em;
+	margin-left:3px;}
+#iconeCompteUser:before {
+    position: absolute;
+	margin-left:3px;
+	margin-top:20px;}
+#corp2{
+   position:absolute;
+   margin-top:13px;
+   margin-left:8px;
+   width: 14px;
+   height: 14px;
+   background-color: #a7945a;
+   border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%;}
+#tete2{
+	position:absolute;
+	margin-top:6px;
+	margin-left:11px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;	
+	background-color: #a7945a;}  
+#iconeCompteUser:hover #tete2{
+	background-color: #bd9a64;	
+	opacity:0.5;
+	transition:.25s;}
+#iconeCompteUser:hover #corp2{
+	background-color: #bd9a64;	
+	opacity:0.5;
+	transition:.25s;}  
+/* ---------------------------UserName----------------------------	 */
+ 
+ 
+/* ---------------------------Password----------------------------	 */
+ 
+#iconePassword {
+/* 	border:1px solid black; */
+/* 	width:100%; rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+    position: relative;
+	font-size:1.6em;
+	margin-left:3px;}
+#iconePassword:before {
+	z-index:4;
+    position: absolute;
+	margin-left:28px;
+	margin-top:0px;
+    content: "\1F512";}    
+#password{
+	margin-left:25px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:0.8em;
+	width:180px;}
+#button{
+	width:40px;
+	height:25px;
+	margin-left:228px;
+	margin-top:3px;
+	position: absolute;
+	font-size:0.5em;
+	background-color:rgba(0,0,0,0);
+	border:none;
+	color:black;
+	outline:0;}   
+.voirMdp {
+/* 		border:1px solid black; */
+	
+/* 	width:100%; rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+    position: relative;}
+.voirMdp:before{
+	position: absolute;
+	background: white;}
+#button:hover{
+	color:blue;
+	font-weight:bold;
+	border:none;}
+
+/* ---------------------------Password----------------------------	 */
+	
+	
+/* ---------------------------Boutton Connexion----------------------------	 */
+
+#connexion{
+	margin-top:5px;
+	margin-left:90px;
+	background:#a7945a;
+    color:#fff;
+    width:100px;
+    height:25px;
+	font-size:1em;
+    border-radius: 4px;
+    border:none;}	
+
+
+#connexion:hover{
+	 font-weight: bold;
+	 background:#e0c36d;	
+	 border: 2px solid #94d9fc;}
+	 
+ /* ---------------------------Boutton Connexion----------------------------	 */   
+ 
+ /* -----------------------------------------------Ligne Connexion----------------------------------------------------	 */    
+ 
+ /* ---------------------------Ligne Inscription----------------------------	 */  
+ .divForm2{
+	width:230px;
+	margin-left:2px;
+	margin-top:3px;}	
+
+#mdpOublie{
+	position:absolute;
+	margin-top:7px;
+	margin-left:10px;
+	color: #008489;
+	text-decoration: none;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;}
+	
+#pasDeCompte{
+	position:absolute;
+	margin-left:28px;
+	margin-top:7px;
+	color: #008489;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;}
+    
+#inscription{
+	 margin-left:90px;
+	 margin-top:5px;
+	 background:#d59f56;
+	 color:#fff;
+	 width:100px;
+	 height:25px;
+	 font-size:1em;
+	 border-radius: 4px;
+     border:none;}
+     
+#inscription:hover{
+	 font-weight: bold;
+	 background:#ecc964;	
+	 border: 2px solid #94d9fc;}
+	 
+ /* ---------------------------Ligne Inscription----------------------------	 */ 
